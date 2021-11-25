@@ -12,7 +12,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.18.0.QCDINXM/dandelion_in_global_images_V12.0.18.0.QCDINXM_20210806.0000.00_10.0_in_03888d2994.tgz
+  ROM_URL: https://www.mediafire.com/file/nq8i4ut3imyivn7/Infinix_Hot_10_X682B_MT6768_V392_210506.zip/file
 
 jobs:
   build:
@@ -30,8 +30,8 @@ jobs:
          working-directory: firmware_dumper
          run: |
               sudo bash setup.sh
-              git config --global user.name "Sushrut1101"
-              git config --global user.email "guptasushrut@gmail.com"
+              git config --global user.name "xoo2001"
+              git config --global user.email "ekora2001@gmail.com"
 
        - name: Setup config envs
          working-directory: firmware_dumper
